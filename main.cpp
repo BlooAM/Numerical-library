@@ -29,7 +29,7 @@ int main()
     {
         cout<<tab1[i]<<"\t";
     }
-    cout<<endl;
+    cout<<endl<<endl;
 
 }
 
