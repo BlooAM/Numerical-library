@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1533761403 source:c:\users\adam\desktop\c++\num\algsystems\main.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+	"Array.h"
+	"ComplexNumbers.h"
+	"ElementaryAlgorithms.h"
+	"ElementaryFunctions.h"
+	"Interpolation.h"
+	"ODE.h"
+	"Sort.h"
+
+1526652780 source:c:\users\adam\desktop\c++\num\classes\macierz.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	"Macierz.h"
+
+1526652160 c:\users\adam\desktop\c++\num\classes\macierz.h
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+
+1528825375 c:\users\adam\desktop\c++\num\algsystems\macierz.h
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+
+1528826468 source:c:\users\adam\desktop\c++\num\algsystems\macierz.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+	"Macierz.h"
+
+1526826566 source:c:\users\adam\desktop\c++\num\algsystems\cmplx.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+	"Cmplx.h"
+
+1526826530 c:\users\adam\desktop\c++\num\algsystems\cmplx.h
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+
+1530475901 source:c:\users\adam\desktop\c++\num\algsystems\elementaryfunctions.cpp
+	<iostream>
+	"ElementaryFunctions.h"
+	<math.h>
+
+1530458468 c:\users\adam\desktop\c++\num\algsystems\elementaryfunctions.h
+	<iostream>
+
+1531654977 source:c:\users\adam\desktop\c++\num\algsystems\ode.cpp
+	<iostream>
+	<math.h>
+	"ODE.h"
+
+1531422020 c:\users\adam\desktop\c++\num\algsystems\ode.h
+	<iostream>
+
+1531654183 source:c:\users\adam\desktop\c++\num\algsystems\array.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+	"Array.h"
+
+1531654005 c:\users\adam\desktop\c++\num\algsystems\array.h
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+
+1531654202 source:c:\users\adam\desktop\c++\num\algsystems\complexnumbers.cpp
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+	"ComplexNumbers.h"
+
+1526826530 c:\users\adam\desktop\c++\num\algsystems\complexnumbers.h
+	<iostream>
+	<time.h>
+	<windows.h>
+	<cstdlib>
+	<iomanip>
+	<cmath>
+
+1532465340 source:c:\users\adam\desktop\c++\num\algsystems\interpolation.cpp
+	"ElementaryFunctions.h"
+	"Interpolation.h"
+
+1532021628 c:\users\adam\desktop\c++\num\algsystems\interpolation.h
+
+1532982646 source:c:\users\adam\desktop\c++\num\algsystems\elementaryalgorithms.cpp
+	"ElementaryAlgorithms.h"
+	<iostream>
+
+1532981893 c:\users\adam\desktop\c++\num\algsystems\elementaryalgorithms.h
+
+1533759453 c:\users\adam\desktop\c++\num\algsystems\sort.h
+
+1533761369 source:c:\users\adam\desktop\c++\num\algsystems\sort.cpp
+	"Sort.h"
+
