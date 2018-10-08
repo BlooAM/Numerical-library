@@ -13,7 +13,6 @@
 #include "Sort.h"
 
 
-
 double f(double,double);
 
 using namespace std;
@@ -21,15 +20,11 @@ using namespace std;
 
 int main()
 {
-    srand(time(NULL));
-    int N=25;
-    double tab1[] = {1,2,3,-5,-8,0,100,-100};
-    BubbleSort(tab1,8);
-    for(int i=0;i<8;i++)
-    {
-        cout<<tab1[i]<<"\t";
-    }
-    cout<<endl<<endl;
+    double tab[] {5,2,-1,50,12,3.13};
+    BubbleSort<6,double>(tab);
+    //BubbleSortT<double>(tab,6);
+    for(int i=0; i<6; i++)  cout<<tab[i]<<"\t";
+    cout<<endl;
 
 }
 

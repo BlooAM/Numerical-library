@@ -48,7 +48,7 @@ void Array::ChangeRows(int i, int j)
     }
     else
     {
-        cout<<"Zle indeksy"<<endl;
+        cout<<"Wrong indexes!"<<endl;
         exit(-1);
     }
 }
@@ -68,7 +68,7 @@ void Array::ChangeColumns(int i, int j)
     }
     else
     {
-        cout<<"Zle indeksy"<<endl;
+        cout<<"Wrong indexes!"<<endl;
         exit(-1);
     }
 }
@@ -84,7 +84,7 @@ void Array::ModRow(int i, int j, double lambda)
     }
     else
     {
-        cout<<"Zly wybor wierzy"<<endl;
+        cout<<"Wrong row choice!"<<endl;
         exit(-1);
     }
 }
@@ -100,7 +100,7 @@ void Array::ModColumn(int i, int j, double lambda)
     }
     else
     {
-        cout<<"Zly wybor wierzy"<<endl;
+        cout<<"Wrong row choice!"<<endl;
         exit(-1);
     }
 }
@@ -162,7 +162,7 @@ Array Gauss(const Array &A, const Array &B)
     }
     else
     {
-        cout<<"Zle dobrane macierze! "<<endl;
+        cout<<"Matrices are not adjusted! "<<endl;
         exit(-1);
     }
     delete [] tablica;
@@ -230,7 +230,7 @@ Array JacobiGauss(const Array &A, const Array &B)
     }
     else
     {
-        cout<<"Zle dobrane macierze! "<<endl;
+        cout<<"Matrices are not adjusted! "<<endl;
         exit(-1);
     }
     delete [] tablica;
@@ -260,8 +260,8 @@ Array Jacobi(const Array &A, const Array &B)
         for(int i=1;i<B.m;i++) epsilon=epsilon+Res.M[i][0]*Res.M[i][0];
         epsilon=sqrt(epsilon);
     }
-    cout<<"Jacobi, liczba iteracji: "<<iter<<endl;
-    cout<<"Residuum: "<<endl;
+    cout<<"Jacobi, number of iterations: "<<iter<<endl;
+    cout<<"Res: "<<endl;
     Res.DispMat();
     return X;
 
@@ -290,8 +290,8 @@ Array GaussSeidl(const Array &A, const Array &B)
         for(int i=1;i<B.m;i++) epsilon=epsilon+Res.M[i][0]*Res.M[i][0];
         epsilon=sqrt(epsilon);
     }
-    cout<<"Gauss_Siedl, liczba iteracji: "<<iter<<endl;
-    cout<<"Residuum: "<<endl;
+    cout<<"Gauss_Siedl, number of iterations: "<<iter<<endl;
+    cout<<"Res: "<<endl;
     Res.DispMat();
     return X;
 
@@ -313,7 +313,7 @@ Array Array::operator +(const Array &A)
     }
     else
     {
-        cout<<"Macierze nie sa jednakowych wymiarow !!!";
+        cout<<"Matrices  have different dimensions !!!";
         exit(-1);
     }
     return C;
@@ -335,7 +335,7 @@ Array Array::operator -(const Array &A)
     }
     else
     {
-        cout<<"Macierze nie sa jednakowych wymiarow !!!";
+        cout<<"Matrices  have different dimensions !!!";
         exit(-1);
     }
     return C;
@@ -374,7 +374,7 @@ Array Array::operator *(const Array &A)
     }
     else
     {
-        cout<<"Macierze nie maja odpowiednich wymiarow !!!";
+        cout<<"Matrices are not adjusted !!!";
         exit(-1);
     }
     return C;

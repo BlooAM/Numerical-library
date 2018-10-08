@@ -1,3 +1,5 @@
+#ifndef _ComplexNumbers
+#define _ComplexNumbers
 #include <iostream>
 #include <time.h>
 #include <windows.h>
@@ -21,3 +23,4 @@ public:
     Cmplx operator *(Cmplx);
     Cmplx operator /(Cmplx);
 };
+#endif // _ComplexNumbers

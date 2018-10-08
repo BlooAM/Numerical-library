@@ -1,3 +1,5 @@
+#ifndef _Array
+#define _Array
 #include <iostream>
 #include <time.h>
 #include <windows.h>
@@ -28,3 +30,4 @@ public:
     Array(const Array &A){m=A.m;n=A.n; this->GenMat(m,n); for(int i=0;i<m;i++) for(int j=0;j<n;j++) M[i][j]=A.M[i][j];}
     ~Array(){for(int i=0; i<m; i++) delete [] M[i]; delete [] M;}
 };
+#endif // _Array
