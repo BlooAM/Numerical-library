@@ -22,6 +22,28 @@ template<size_t n,typename T> void BubbleSort(T *tab)
         sup = s;
     }
 }
+template<typename T> void QuickSort(T *tab, int l, int r)
+{
+    T x = tab[(l+r)/2],temp;
+    int i,j;
+    i = l;
+    j = r;
+    do
+    {
+        while(tab[i]<x) i++;
+        while(tab[j]>x) j--;
+        if(i<=j)
+        {
+            temp = tab[i];
+            tab[i] = tab[j];
+            tab[j] = temp;
+            i++;
+            j--;
+        }
+    }while(i<=j);
+    if(j>l) QuickSort<T>(tab,l,j);
+    if(i<r) QuickSort<T>(tab,i,r);
+}
 template<size_t n,typename T> void SelectionSort(T *tab)
 {
     T m,temp;

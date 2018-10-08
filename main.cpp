@@ -21,7 +21,7 @@ using namespace std;
 int main()
 {
     double tab[] {5,2,-1,50,12,3.13};
-    BubbleSort<6,double>(tab);
+    QuickSort(tab,0,5);
     //BubbleSortT<double>(tab,6);
     for(int i=0; i<6; i++)  cout<<tab[i]<<"\t";
     cout<<endl;
